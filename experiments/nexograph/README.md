@@ -2,6 +2,8 @@
 
 Aplicação web para equipes organizarem projetos, tarefas, dependências e decisões em um grafo interativo.
 
+**Produção verificada:** https://nexograph-teamgraph.vercel.app
+
 ## Fluxo principal
 
 1. Crie um projeto.
