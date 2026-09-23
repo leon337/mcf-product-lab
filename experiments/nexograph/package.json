@@ -1,0 +1,17 @@
+{
+  "name": "teamgraph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Workspace visual para projetos, tarefas, dependências e decisões em grafo.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "lint": "node scripts/lint.mjs",
+    "check": "npm run lint && npm run test && npm run build",
+    "serve": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
